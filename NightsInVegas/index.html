@@ -1,0 +1,141 @@
+<!---------------------------------------------
+GROUP MEMBERS: JASON OU, SEAN BLUM, Max Villet
+CLASS : CMPS 165
+        Data Programming for Visualization
+        Winter 2015
+INSTRUCTOR: Suresh K. Lodha
+----------------------------------------------->
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <!-- Meta Tag -->
+        <meta charset="utf-8">
+        
+        <!-- Tab Title -->
+        <title>A Thousand Nights in Vegas</title>
+        
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/vegas_stylesheet.css">
+        
+        <!-- D3.js Source -->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script type= "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- Title of our d3 project -->
+        <div class="maintitle">
+            <h1>A Thousand Nights in <strong>VEGAS</strong></h1>
+        </div>
+        
+        <!-- D3.js main code -->
+        <script type="text/javascript" src="js/vegas_javascript.js"></script>
+        
+        <div class="simcontainer">
+            <FORM NAME="myform">
+            <div class="optioncontainer">
+                <div class="tooltip">
+                    <div class="tooltipimg">
+                        <img src="images/poker_cartoon.png" alt="Poker Dealer" height="250" width="250">
+                    </div>
+                    
+                    <div class="tooltiptext">
+                        <h1>Welcome to A Thousand Nights in <span style="color:red">Vegas</span>.</h1>
+                        <h2 id="startText">To begin, please start by choosing a game down below.</h2>
+                    </div>
+                </div>
+                
+                <div id="gamecontainer">
+                    <h1>Games</h1>
+                    
+                    <div id="hiddengames">
+                            <select id="gamelist" size="4">
+                                <option class="game1" value="1">Baccarat</option>
+                                <option class="game2" value="2" selected="selected" >Roulette</option>
+                                <option class="game3" value="3">Black Jack</option>
+                                <option class="game4" value="4">Craps</option>
+                            </select>
+                    </div>
+                </div>
+                
+                <div id="strategycontainer">
+                    <h1>Strategy</h1>
+                    
+                    <div id="hiddenstrategies">
+                            <select NAME="bacStratList" id="bacStratList">
+                                <option value="playerBet">Player Bet</option>
+                                <option value="bankerBet">Banker Bet</option>
+                                <option value="tieBet">Tie Bet</option>
+                                <option value="pairBet">Pair Bet</option>
+                            </select>
+                            <select id="rouletteStratList">
+                                <option value="colorBet" >Color Bet</option>
+                                <option value="numberBet" >Number Bet</option>
+                            </select>
+                            <select id="blackStratList">
+                                <option value="basicStrategy">Basic Strategy</option>
+                                <option value="houseEdge" >House Edge</option>
+                                <option value="neverBust" >Never Bust</option>
+                            </select>
+                            <select id="crapsStratList">
+                                <option value="optimalBet" >Optimal Strategy</option>
+                                <option value="passlineBet" >Pass Line</option>
+                                <option value="dontpassBet" >Don't Pass</option>
+                            </select>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="graphcontainer">
+                <div class="graph"></div>
+                <div id="rulescontainer">
+                    <div id="hiddenrules">
+                        Starting cash:<INPUT NAME="startCash" value="100"><BR><BR>
+                        Bet amount:   <INPUT NAME="betCash" value="10"><BR><BR>
+                    </div>
+                    <INPUT TYPE="button" Value="Simulate Game" onClick="runSim(this.form)">
+                </div>
+            </div>
+        </div>
+        </FORM>              
+        <div class="additionalinfo" style="list-style: none;">
+            <div id="memberslist">
+                <h3>Members</h3>
+                <li>Jason Ou</li>
+                <li>Sean Blum</li>
+                <li>Max Villet</li>
+            </div>
+            
+            <div id="classinfolist" style="list-style: none;">
+                <h3>Created For:</h3>
+                <li>Class : CMPS 165</li>
+                <li>Class Name : Data Programming for Visualization</li>
+                <li>Winter 2015</li>
+                <li>Instructor : Suresh K. Lodha</li>
+            </div>
+            
+            <div id="filesubmitlist" style="list-style: none;">
+                <h3>Files Being Submitted</h3>
+                <li>vegas_index.html</li>
+                <li>css/vegas_stylesheet.css</li>
+                <li>css/normalize.css</li>
+                <li>js/vegas_javascript.js</li>
+                <li>images/poker_cartoon.png</li>
+                <li>README</li>
+            </div>
+            
+            <div id="resourceslist" style="list-style: none;">
+                <h3>Resources</h3>
+                <li>D3 API Reference, Interactive Data Visualization for the Web</li>
+                <li><a href="http://www.w3schools.com/" target="_blank">w3schools</a></li>
+                <li><a href="http://bost.ocks.org/mike/bar/3/" target = "_blank"> Bar Graph Example by Mike Bostock</a></li>
+                <li><a href="http://bl.ocks.org/mbostock/1166403" target = "_blank"> Axes Component Example by Mike Bostock</a></li>
+                <li><a href="http://big-elephants.com/2014-06/unrolling-line-charts-d3js/" target = "_blank:">Notes on Animating Line Charts with D3 </a></li>
+                <li><a href="http://stackoverflow.com/questions/15580300/proper-way-to-draw-gridlines" target = "_blank:">Comment from user "arete" in stackoverflow</a></li>
+                <li><a href="https://necolas.github.com/normalize.css/3.0.2/normalize.css" target = "_blank:">normalize.css</a></li>
+                <li><a href="http://www.wizardofodds.com/" target="_blank">Wizard of Odds</a></li>
+            </div>
+        </div>
+    </body>
+</html>

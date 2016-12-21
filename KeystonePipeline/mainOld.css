@@ -1,0 +1,95 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: green;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.box {
+
+	display: flex;
+	flex-flow:  column nowrap;
+	justify-content: center;
+	align-content: center ;
+	align-items: center;
+}
+
+.A {
+
+	order: 1
+	 flex:  0 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.B {
+
+	order: 2
+	 flex:  0 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.C {
+
+	order: 3
+	 flex:  1 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.D {
+
+	order: 4
+	 flex:  1 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+
+#tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      .group path {
+        fill-opacity: .7;
+      }
+      .chord {
+        fill-opacity: .7;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }

@@ -1,0 +1,61 @@
+#book {
+    position:relative;
+    background-image: url("images/flip.png");
+    width:974px;
+    height:641px; 
+    text-align: center;
+}
+
+@font-face{
+    font-family: Orator Std;
+    src: url(OratorStd.otf);
+}
+
+#title {
+    width: 80px;
+    word-wrap: break-word;
+    position:absolute;
+    top: 20px;
+    left: -25px;
+    float: left;
+    text-align: left;
+    font-family: Orator Std;
+    font-size: 13px;
+
+}
+
+#title li {
+    margin-bottom: 39px;
+    line-height: 10px;
+}
+
+#title li:hover {
+    color: orange;
+}
+
+#svg {
+    position: relative;
+    top: -600px;
+    right: -195px;
+    /*float: right;*/
+   
+ }
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: 120px;
+  height: 60px;
+  padding: 8px;
+  font: 20px monotype corsiva;
+  background: #ddd;
+
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#img {
+  position: relative;
+  top: -10px;
+  left: -25px;
+}

@@ -1,0 +1,48 @@
+body {
+   background-image: url("http://backgroundimages.eu/albums/background/papyrus-old-stationery.jpg");
+   background-size: cover;    
+}
+
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.fill {
+  fill: #fff;
+}
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+.tooltip {
+    position: absolute;
+    line-height: 1;
+    font-weight: bold;
+    padding: 12px;
+    background-image: url("http://backgroundimages.eu/albums/background/papyrus-old-stationery.jpg");
+    border-right: 10px;
+    top:100px;
+    color: #000;
+    border-radius: 4px;
+    width: 125px;/*tooltip width
+  
+}
+
+
+
+

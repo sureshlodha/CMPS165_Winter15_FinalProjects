@@ -1,0 +1,292 @@
+
+    {
+        "name": "Gear",
+        "description": "Gear",
+          "children": [
+
+    {
+      "name": "Electric Guitars",
+        "description": "Electric Guitars",
+        "children": [
+          {
+            "name": "Fender",
+              "description": "Fender Brand Guitars",
+              "children": [
+                  {
+                "name": "Telecaster",
+                      "description": "Telecaster Models",
+                "children": [
+                    {
+                        "name": "American Standard", "description": "Stars: 4.7/5 </br> Price: 1199.99", "size": 1
+                    },
+                    {
+                        "name": "American Deluxe", "description": "Stars: 4/5 </br> Price: 1699.99", "size": 1
+                    },
+                    {
+                        "name": "Mexican Standard", "description": "Stars: 4.5/5 </br> Price: 499.99", "size": 1
+                    }
+                ]
+                },
+                {
+                "name": "Stratocaster",
+                    "description": "Stratocaster Models",
+                  "children": [
+                    {
+                        "name": "American Standard", "description": "Stars: 4.2/5 </br> Price: 1199.99", "size": 1
+                    },
+                    {
+                        "name": "American Deluxe", "description": "Stars: 4.6/5 </br> Price: 1699.99", "size": 1
+                    },
+                    {
+                        "name": "Mexican", "description": "Stars: 4.1/5 </br> Price: 499.9 ", "size": 1
+                    }
+                  ]
+                }
+              ]
+          },
+          {
+            "name": "Gibson",
+              "description": "Gibson Brand Guitars",
+              "children": [
+                  {
+                      "name": "Les Paul Standard", "description": "Stars: 4.3/5 </br> Price: 3,299.00", "size": 1
+                  },
+                  {
+                      "name": "ES-339", "description": "Stars: 4.7/5 </br> Price: 2,599.00", "size": 1
+                  },
+                  {
+                      "name": "SG Standard", "description": "Stars: 4.5/5 </br> Price: 1879.00", "size": 1
+                  }
+              ]
+          },
+            {
+                "name": "Grestch",
+                "description": "Grestch Brand Guitars",
+                  "children": [
+                      {
+                          "name": "G5422TDC", "description": "Stars: 4/5 </br> Price: 799.99", "size": 1
+                  },
+                  {
+                      "name": "G5435T", "description": "Stars: 4.6/5 </br> Price: 499.99", "size": 1
+                  },
+                  {
+                      "name": "G6136T", "description": "Stars: 4.9/5 </br> Price: 3,499.99", "size": 1
+                  }
+              ]
+          }
+                          
+        ]
+      },
+    {
+        "name": "FX Pedals",
+        "description": "Stomp Boxes to alter signal",
+          "children": [
+              {
+                  "name": "Gain",
+                  "description": "Stomps that drives signal",
+                    "children": [
+                        {
+                            "name": "Overdrive/Boost",
+                            "description": "Clean driven signal boosts",
+                              "children": [
+                                  {
+                                      "name": "Fulltone \n\nFulldrive 2: Mosfet", "description": "Stars: 4.8/5 </br> Price: 119.20", "size": 1
+                                  },
+                                  {
+                                      "name": "Tubescreamer TS9", "description": "Stars: 3.8/5 </br> Price: 99.00", "size": 1
+                                  },
+                                  {
+                                      "name": "Bluesdriver", "description": "Stars: 3.5/5 </br> Price: 99.00", "size": 1
+                                  }
+                              ]
+                        },
+                        {
+                            "name": "Distortion",
+                            "description": "Satchurated Gain",
+                              "children": [
+                                  {
+                                      "name": "Boss DS-1", "description": "Stars: 4/5 </br> Price: 49.00", "size": 1
+                                  },
+                                  {
+                                      "name": "Vox Sachurator", "description": "Stars: 4/5 </br> Price: 99.99", "size": 1
+                                  },
+                                  {
+                                      "name": "ProCo RAT II", "description": "Stars: 4/5 </br> Price: 79.99", "size": 1
+                                  }
+                              ]
+                        },
+                        {
+                            "name": "Fuzz",
+                            "description": "Transistor-Based, Satchurated Gain",
+                              "children": [
+                                  {
+                                      "name": "Big Muff Pi", "description": "Stars: 4/5 </br> Price: 80.40", "size": 1
+                                  },
+                                  {
+                                      "name": "Dallas Arbiter", "description": "Stars: 4/5 </br> Price: 149.99", "size": 1
+                                  },
+                                  {
+                                      "name": "Swollen Pickle", "description": "Stars: 4.2/5 </br> Price: 129.00", "size": 1
+                                  }
+                              ]
+                        }
+                        
+                            
+                    ]
+              },
+              {
+                  "name": "Modulation",
+                  "description": "Phase/Filter/Frequency altering FXs",
+                    "children": [
+                        {
+                            "name": "Phaser",
+                            "description": "Phase-cycled FX",
+                            "children": [
+                                {
+                                    "name": "MXR Phase 90", "description": "Stars: 3.9/5 </br> Price: 76.75", "size": 1
+                                },
+                                {
+                                    "name": "Boss PH-3", "description": "Stars: 4.3/5 </br> Price: 129.00", "size": 1
+                                },
+                                {
+                                    "name": "Small Stone", "description": "Stars: 3/5 </br> Price: 71.10", "size": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Chorus", 
+                            "description": "Frequecny Overlaying FX",
+                              "children": [
+                                  {
+                                      "name": "Liquid Chorus", "description": "Stars: 3.7/5 </br> Price: 75", "size": 1
+                                  },
+                                  {
+                                      "name": "Boss CH-1", "description": "Stars: 4.3/5 </br> Price: 99.00", "size": 1
+                                  },
+                                  {
+                                      "name": "Stereo Electric Mistress", "description": "Stars: 3.3/5 </br> Price: 99.00", "size": 1
+                                  }
+                              ]
+                        }
+                    ]
+              },
+              {
+                  "name": "Delay",
+                  "description": "Echo-based FX",
+                    "children": [
+                        {
+                            "name": "Analog",
+                            "description": "Analog-cicuit echoes",
+                              "children": [
+                                  {
+                                      "name": "Carbon Copy", "description": "Stars: 3.2/5 </br> Price: 149.00", "size": 1
+                                  },
+                                  {
+                                      "name": "Deluxe Memory Man", "description": "Stars: 3.7/5 </br> Price: 318.99", "size": 1
+                                  },
+                                  {
+                                      "name": "Memory Toy", "description": "Stars: 3.5/5 </br> Price: 119.99", "size": 1
+                                  }
+                              ]
+                        },
+                        {
+                            "name": "Digital",
+                            "description": "Digital-circuit echoes",
+                              "children": [
+
+                                  {
+                                      "name": "DD-7", "description": "Stars: 3.9/5 </br> Price: 149.00", "size": 1
+                                  },
+                                  {
+                                      "name": "DD-20", "description": "Stars: 4/5 </br> Price: 239.00", "size": 1
+                                  },
+                                  {
+                                      "name": "TimeFactor", "description": "Stars: 3.7/5 </br> Price: 400.00", "size": 1
+                                  }
+                              ]
+                        }
+                    ]
+              },
+              {
+                  "name": "Reverb",
+                  "description": "Reverberation units",
+                    "children": [
+                        {
+                            "name": "Cathedral", "description": "Stars: 4/5 </br> Price: 220.99", "size": 1
+                        },
+                        {
+                            "name": "Hall of Fame", "description": "Stars: 4.5/5 </br> Price: 149.00", "size": 1
+                        },
+                        {
+                            "name": "Holy Grail", "description": "Stars: 3/5 </br> Price: 99.00", "size": 1
+                        }
+                    ]
+              }
+          ]
+    },
+    {
+        "name": "Amplifiers",
+        "description": "Tube Combo Amps",
+          "children": [
+              {
+                  "name": "Fender",
+                  "description": "Fender Brand Tube Amps",
+                    "children": [
+                        {
+                            "name": "Hot Rod", "description": "Stars: 3.6/5 </br> Price: 729.99", "size": 1
+                        },
+                        {
+                            "name": "'65 Super Reverb", "description": "Stars: 4.2/5 </br> Price: 1549.99", "size": 1
+                        },
+                        {
+                            "name": "'65 Twin Reverb", "description": "Stars: 4.1/5 </br> Price: 1449.99", "size": 1
+                        }
+                    ]
+              },
+              {
+                  "name": "Vox",
+                  "description": "Vox Brand Tube Amps",
+                    "children": [
+                        {
+                            "name": "AC30C2", "description": "Stars: 4.7/5 </br> Price: 1,099.99", "size": 1
+                        },
+                        {
+                            "name": "AC15", "description": "Stars: 4.9/5 </br> Price: 629.99", "size": 1
+                        }
+                    ]
+              },
+              {
+                  "name": "Peavey",
+                  "description": "Peavey Brand Tube Amps",
+                    "children": [
+                        {
+                            "name": "6505+", "description": "Stars: 4/5 </br> Price: 599.99", "size": 1
+                        },
+                        {
+                            "name": "Classic 50", "description": "Stars: 4.5/5 </br> Price: 999.99", "size": 1
+                        },
+                        {
+                            "name": "ValveKing II", "description": "Stars: 3.5/5 </br> Price: 599.99", "size": 1
+                        }
+                    ]
+              },
+              {
+                  "name": "Marshall",
+                  "description": "Marshall Brand Tube Amps",
+                    "children": [
+                        {
+                            "name": "Bluesbreaker", "description": "Stars: 3.4/5 </br> Price: 2,699.99", "size": 1
+                        },
+                        {
+                            "name": "JVM215", "description": "Stars: 3.5/5 </br> Price: 1,849.99", "size": 1
+                        },
+                        {
+                            "name": "TSL602", "description": "Stars: 3.7/5 </br> Price: 699.99", "size": 1
+                        }
+                    ]
+              }
+          ]
+    }
+          ]
+    }
+  

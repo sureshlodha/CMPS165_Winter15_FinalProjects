@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <title>90 Popular Recreational Drugs</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="venn.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="http://d3js.org/d3.v3.min.js"></script>       
+  </head>
+  <body>
+    
+    <h1 style = "text-align:center; color:steelblue"><bold> 90 Popular Recreational Drugs </bold></h1>
+      
+      <body2><script type="text/javascript" src="venn.js"></script></body2>
+      
+    <div id="option">
+    <input name="update" 
+                 type="button" 
+                value="Show Group/Alone Usage" 
+                onclick="updateData()" />
+    </div>  
+    <div id="option">
+    <input name="Return" 
+                 type="button" 
+                value="Show Addiction vs. Good/Bad Experiences" 
+                onclick="original()" />
+    </div> 
+    <!-- Submission Info -->
+    <h4>Created by:
+        <li>Aaron Piotrowski</li>
+        <li>Eric Azama</li>
+        <li>Michael Epler</li>
+        <li>Seth Little</li>
+      </h4>
+      
+    <h4><li>CMPS 165</li>
+        <li>Data Programming for Visualization</li>
+        <li>Winter 2015</li>
+        <li>Suresh K. Lodha</li></h4>
+      
+      <h4> Files: 
+        <li>index.html</li>
+        <li>venn.js</li>
+        <li>venn.css</li>
+        <li>drugamounts.csv</li>
+      </h4>
+      
+      
+    <!-- Create a list using <ul> and <li> tag -->   
+    <h4>Data Sources:
+    
+    <ul>
+      <li>erowid.org</li>
+      <li><a href="https://www.erowid.org/experiences/">Experience Vaults</a></li>
+    </ul></h4>
+      
+     <h4>Visualization Sources:
+    
+    <ul>
+      <li><a href="https://github.com/mbostock/d3/wiki/Gallery">Mike Bostock's Gallery</a></li>
+      <li><a href="https://github.com/benfred/venn.js">D3 Venn Diagram Example</a></li>
+    </ul></h4>      
+  </body>
+</html>

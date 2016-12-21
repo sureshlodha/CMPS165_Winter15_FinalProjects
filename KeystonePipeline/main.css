@@ -1,0 +1,228 @@
+body {
+  font-family: 'Helvetica' 'Arial', sans-serif;
+  
+}
+
+h1{
+	color: black;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.box {
+
+	display: flex;
+	flex-flow:  column nowrap;
+	justify-content: center;
+	align-content: center ;
+	align-items: center;
+}
+
+.A {
+
+	order: 1
+	 flex:  0 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.B {
+
+	order: 2
+	 flex:  0 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.C {
+
+	order: 3
+	flex:  0 ;
+    font-size: 12px;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+
+}
+.D {
+
+	order: 4
+	 flex:  1 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.E {
+
+	order: 5
+	 flex:  1 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+    font-size: 10pt;
+
+}
+.F {
+
+	order: 6
+	 flex:  1 ;
+	flex-grow: 0 ;
+	flex-shrink:0 ;
+	flex-basis: auto;
+	align-self: auto;
+	min-width:  0;
+	min-height: auto;
+
+}
+.flexcontainer {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   
+}
+
+#infoBox{
+    font-size: 10pt;
+}
+
+#chordDiagram {
+   /* This will be twice as big as the small item. */
+   /*-webkit-flex: 2 0 0; */
+   /*flex: 2 0 0; */
+   min-width: 900px;
+   max-width: 900px;
+   min-height: 500px;
+}
+.legend{
+    
+}
+
+#leftCol {
+   /*flex: 1 1 0;*/
+   flex-direction: column;
+   max-width: 200px;
+   min-width: 200px;
+   min-height: 500px
+
+}
+#leftCol2 {
+   /*flex: 1 1 0;*/
+   flex-direction: column;
+   max-width: 100px;
+   min-width: 400px;
+   min-height: 500px
+
+}
+#main {
+    flex-direction: column;
+    align-self: flex-start;
+}
+#source{
+    text-align: right;
+}
+
+#houseBox {
+   /*flex: 0 0 0;*/
+   /*align-self: flex-start;*/
+   min-height: 200px;
+   color: black;
+}
+#houseBox2{
+   /*flex: 0 0 0;*/
+   /*align-self: flex-start;*/
+   min-height: 200px;
+   color: black;
+}
+.aGroup{
+    font-size: 10pt;
+}
+.democrat{
+	color :rgb(33, 102, 172);
+}
+.republican{
+	color:rgb(178, 24, 43);
+}
+#infoBox{
+   /*flex: 0 0 0;*/
+   /*align-self: flex-end;*/
+}
+.ac{
+	text-align:center;
+}
+.ar{
+	text-align:right;
+}
+.al{
+	text-align:left;
+}
+#tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        pointer-events: none;
+      }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      .group path {
+        fill-opacity: .7;
+      }
+      .chord {
+        fill-opacity: .7;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.x.axis path {
+  display: none;
+}
