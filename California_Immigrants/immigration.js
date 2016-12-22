@@ -1,4 +1,4 @@
-//some of the following code is from http://bl.ocks.org/mbostock/3885211
+//some of the following code is from https://bl.ocks.org/mbostock/3885211
 
 //Define Margin
 var margin = {
@@ -354,7 +354,7 @@ svg3.call(tip);
 
 function draw_pie() {
     //clear image so we can redraw
-    //http://stackoverflow.com/questions/10784018/how-can-i-remove-or-replace-svg-content
+    //https://stackoverflow.com/questions/10784018/how-can-i-remove-or-replace-svg-content
     svg3.selectAll("*")
         .remove();
 
@@ -393,7 +393,7 @@ function draw_pie() {
             .outerRadius(radius)
             .innerRadius(0);
 
-        // Pie chart animation: http://bl.ocks.org/mbostock/4341574
+        // Pie chart animation: https://bl.ocks.org/mbostock/4341574
         function tweenPie(b) {
             b.innerRadius = 0;
             var i = d3.interpolate({
